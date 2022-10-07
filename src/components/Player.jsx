@@ -98,6 +98,16 @@ function Player() {
   function isShuffle() {
     dispatch(shuffle());
   }
+  function updatePlay() {
+    if (!isPlaying) {
+      dispatch(playOrPause());
+    }
+  }
+  function updatePause() {
+    if (isPlaying) {
+      dispatch(playOrPause());
+    }
+  }
 
   function placeOnRepeat() {
     dispatch(repeat());
@@ -142,6 +152,9 @@ function Player() {
             ref={audioPlayer}
             src={currentSong.url}
             onTimeUpdate={updateSeek}
+            onPlay={updatePlay}
+            onPause={updatePause}
+            muted={isMute.muted}
           >
             <track kind="captions" />
           </audio>
