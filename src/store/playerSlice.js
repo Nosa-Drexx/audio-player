@@ -66,6 +66,7 @@ const playerSlice = createSlice({
       }
     },
     prevAudio: (state) => {
+      state.repeat.repeatCount = 1; //resets repeat count whenever a new music starts
       if (state.shuffle) {
         getRandomMusic(state);
       } else {
@@ -81,6 +82,7 @@ const playerSlice = createSlice({
       state.shuffle = !state.shuffle;
     },
     changeSong: (state, action) => {
+      state.repeat.repeatCount = 1; //resets repeat count whenever a new music starts
       const newSongIndex = find(state.songs, action.payload);
       state.currentSong = state.songs[newSongIndex];
     },
