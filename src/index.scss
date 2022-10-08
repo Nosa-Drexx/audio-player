@@ -83,6 +83,7 @@ body {
         width: 100%;
         @include flex();
         justify-content: space-evenly;
+        margin-bottom: 1.5rem; // For mobile easy view
     }
     //costume seek style
     input#seek {
