@@ -127,6 +127,7 @@ function Player() {
       style={{
         backgroundColor: background.color,
         backgroundImage: background.gradient,
+        backgroundSize: "400% 400%", //For animation of background gradients.
       }}
     >
       <div className="track-info">

@@ -10,9 +10,9 @@ export const audios = [
     url: "https://web-audio-player.s3.amazonaws.com/Luke-Bergs-Take-It-Easy.mp3",
   },
   {
-    title: "The Wild Horse",
-    name: "Hunza Folk",
-    url: "https://beardbarnmusicbucket.s3.amazonaws.com/The+Wild+Horse",
+    title: "Eye Closed",
+    name: "Ed-Sheeran",
+    url: "https://web-audio-player.s3.amazonaws.com/Ed-Sheeran-Eyes-Closed-(NaijaChoice.NG).mp3",
   },
   {
     title: "Guitar reef",

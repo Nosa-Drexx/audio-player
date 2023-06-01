@@ -5,15 +5,15 @@ export const colors = [
   },
   {
     color: "#D9AFD9",
-    gradient: "linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%)",
+    gradient: "linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)",
   },
   {
-    color: "#85FFBD",
-    gradient: "linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%)",
+    color: " #FFFFFF",
+    gradient: "linear-gradient(135deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%)",
   },
   {
-    color: "#FFDEE9",
-    gradient: "linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%)",
+    color: "#3EECAC",
+    gradient: "linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%)",
   },
   {
     color: "#FA8BFF",
